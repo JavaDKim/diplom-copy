@@ -11,7 +11,7 @@ const Breadcrumbs = () => {
 
 	return (<>{ok && <Breadcrumb >
 		<Breadcrumb.Item className='breadItem' onClick={e => { e.preventDefault(); navigate("/") }} >Home</Breadcrumb.Item>
-		<Breadcrumb.Item className='breadItem' onClick={e => { e.preventDefault(); navigate("/") }} >Посты</Breadcrumb.Item>
+		<Breadcrumb.Item className='breadItem' onClick={e => { e.preventDefault(); navigate("/posts") }} >Посты</Breadcrumb.Item>
 		{location.pathname.split('/').filter(crumb => crumb !== '').map(crumb => {
 			currentLink = `/${crumb}`
 			return <Breadcrumb.Item className='breadItem' active key={crumb} href={currentLink}>
