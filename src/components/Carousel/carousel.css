@@ -1,0 +1,20 @@
+.carousel{
+	margin: 0px;
+	padding: 0px;
+}
+.carouselText{
+	font-size: 14px;
+}
+@media screen and (max-width: 769px)  {
+.carousel{
+	position: relative;
+}
+.carouselTitle{
+	position: absolute;
+	bottom: 0;
+	font-size: 14px;
+	padding: 5px;
+}
+.carouselText{
+	visibility: hidden;
+}}

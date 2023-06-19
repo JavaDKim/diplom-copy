@@ -1,0 +1,53 @@
+
+.link_header{
+	color: #555555;
+	text-decoration: none;
+}
+.link_header:hover{
+	color: #111111;
+}
+.btn_header{
+	color: #555555;
+	text-decoration: none;
+	padding: 0;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+}
+.btn_header:hover{
+	color: #111111;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.btn_header:active{
+	background-color:rgba(0, 0, 0, 0) !important;
+	border: none !important;
+	color:  black !important;
+}
+.frmSearch{
+	display: flex;
+	margin-top: 8px;
+	align-items: center;
+	height: 25px;
+	position: relative;
+}
+.btnSearch{
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	border: none;
+	color: grey;
+	right: 0
+}
+.btnSearch:hover{
+	background-color: rgba(0, 0, 0, 0);
+	color: blue;
+
+}
+.btnSearch:active {
+	background-color: rgba(0, 0, 0, 0) !important;
+	color: blue !important;
+}
+.navbar-toggler-icon{
+	height: 1em !important;
+	width: 1em !important;
+}

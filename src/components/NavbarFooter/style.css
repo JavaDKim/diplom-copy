@@ -1,0 +1,13 @@
+.navbar_footer {
+	position: relative;
+	margin-top: 50px;
+	background-size: cover;
+	height: 100px;
+	color: gray;
+	border-top: 1px solid lightgrey; /* Удалено свойство border-top */
+
+}
+
+.navbar_footer a {
+	color: gray;
+}

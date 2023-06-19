@@ -1,0 +1,59 @@
+.outline{
+	position: fixed;
+	background-color: #fff9;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	backdrop-filter: blur(1px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-y: none;
+}
+.inline{
+	min-width: 300px;
+	width: 320px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: Gainsboro;
+	border-radius: 10px;
+	border-style: 1px solid crimson;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow-y: auto;
+	
+}
+.avatar{
+	background-color: rgba(200, 200, 200, 0.5);
+	width: 300px;
+	height: 300px;
+	margin-bottom: 10px;
+}
+.lableEdit{
+	font-size: 12px;
+	font-weight: 550;
+	margin-top: 10px;
+}
+
+.formEdit{
+	background-color: Gainsboro;
+	border-radius: 10px;
+	border-style: 1px solid crimson;
+}
+.btnGroupEdit{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.closeEdit{
+width: 100%;
+color: crimson;
+position: relative;
+left: 260px;
+top: 0px;
+margin-bottom: 10px;
+cursor: pointer;
+}
