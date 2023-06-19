@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/diplom-copy/static/css/main.08db16ef.css",
-    "main.js": "/diplom-copy/static/js/main.57252fb8.js",
+    "main.js": "/diplom-copy/static/js/main.35ea7759.js",
     "static/media/footer.png": "/diplom-copy/static/media/footer.537eeaa93f8c928988f4.png",
     "static/media/main2.png": "/diplom-copy/static/media/main2.32996aa2cedbf1f386e1.png",
     "static/media/main.png": "/diplom-copy/static/media/main.ba227b37b41621d24ffe.png",
@@ -76,10 +76,10 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/diplom-copy/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/diplom-copy/index.html",
     "main.08db16ef.css.map": "/diplom-copy/static/css/main.08db16ef.css.map",
-    "main.57252fb8.js.map": "/diplom-copy/static/js/main.57252fb8.js.map"
+    "main.35ea7759.js.map": "/diplom-copy/static/js/main.35ea7759.js.map"
   },
   "entrypoints": [
     "static/css/main.08db16ef.css",
-    "static/js/main.57252fb8.js"
+    "static/js/main.35ea7759.js"
   ]
 }
