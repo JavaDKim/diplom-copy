@@ -44,7 +44,7 @@ const VertCard = ({ elPost }) => {
 					<Card.Title style={{ fontSize: "14px", fontWeight: "550", padding: "0px 19px 0px 19px" }}>{elPost?.title}</Card.Title>
 					<Card.Text style={{ fontSize: "12px", padding: "5px 19px 5px 19px" }}>
 						{elPost.text?.slice(0, 130)}
-						<Card.Link style={{ textDecoration: "none", color: "DodgerBlue" }} href={`/post/${elPost?._id}`}><ReadMoreIcon /> далее</Card.Link>
+						<Card.Link style={{ textDecoration: "none", color: "DodgerBlue" }} onClick={e => { e.preventDefault(); navigate(`/post/${elPost?._id}`) }} href="#"><ReadMoreIcon /> далее</Card.Link>
 					</Card.Text>
 				</Card.Body>
 				<Card.Footer className='d-flex justify-content-between'>
