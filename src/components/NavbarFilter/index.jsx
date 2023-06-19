@@ -25,17 +25,18 @@ function NavbarFilter() {
 
 	}
 	return (
-		<Navbar bg="light" variant="light">
-			<Container>
-				<Nav className="justify-content-between flex-grow-1 pe-3 link_to">
+		<Container>
+			<Navbar bg="light" variant="light">
+
+				<Nav className="justify-content-between flex-grow-1 link_to">
 					{filterArray?.map(e => <Nav.Link onClick={x => {
 						x.preventDefault();
 						goSearch(e.tag)
 					}
 					} key={e.id} href="#home">{e.tag}</Nav.Link>)}
 				</Nav>
-			</Container>
-		</Navbar>
+			</Navbar>
+		</Container>
 	)
 }
 export default NavbarFilter

@@ -8,7 +8,6 @@
 @media screen and (max-width: 769px)  {
 .carousel{
 	position: relative;
-	padding: 10px;
 	justify-self: center;
 }
 .carouselTitle{

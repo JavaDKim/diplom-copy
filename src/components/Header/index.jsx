@@ -1,9 +1,12 @@
 import React from 'react';
 import ControlledCarousel from '../Carousel';
+import { Container } from 'react-bootstrap';
 
 const Header = () => {
 	return (
-		<ControlledCarousel />
+		<Container>
+			<ControlledCarousel />
+		</Container>
 	);
 }
 
