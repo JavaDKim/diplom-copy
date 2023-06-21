@@ -12,6 +12,7 @@ import EditPost from "./pages/EditPost"
 import Setting from "./pages/Setting"
 import Favorites from "./pages/Favorites"
 import Search from "./pages/Search"
+import PageNotFound from "./pages/404/PageNotFound"
 
 const RoutesBlog = () => {
 	return (
@@ -27,6 +28,7 @@ const RoutesBlog = () => {
 				<Route path="/auth" element={<Auth />} />
 				<Route path="/favorites" element={<Favorites />} />
 				<Route path="/search" element={<Search />} />
+				<Route path="*" element={<PageNotFound />} />
 			</Routes>
 		</main >
 	);
