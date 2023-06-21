@@ -48,16 +48,16 @@ function NavbarMenu() {
 		e.preventDefault()
 		navigate("/search")
 	}
-
 	return (
+
 		<Row className='navbar'>
+
 			{['lg'].map((expand) => (
-				<Navbar key={expand} bg="opacity-100" expand={expand} className="mb-3">
+				<Navbar key={expand} bg="opacity-100" expand={expand} className="mb-3" >
 					<Container fluid>
-						<Navbar.Brand className="link_header" onClick={e => { e.preventDefault(); navigate("/") }}><img width={200} src={require('../../assets/images/logo.png')} /></Navbar.Brand>
+						<Navbar.Brand className="link_header" style={{ cursor: "pointer" }} onClick={e => { e.preventDefault(); navigate("/") }}><img width={200} src={require('../../assets/images/logo.png')} /></Navbar.Brand>
 						<Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
 						<Navbar.Offcanvas
-
 							id={`offcanvasNavbar-expand-${expand}`}
 							aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
 							placement="end"
@@ -70,7 +70,7 @@ function NavbarMenu() {
 							<Offcanvas.Body>
 								{!userId &&
 									<Nav className="justify-content-end flex-grow-1 pe-3">
-										<Nav.Link className="link_header" title="авторизация" onClick={e => { e.preventDefault(); navigate("/auth") }}>	<span>Вход</span></Nav.Link>
+										<Nav.Link className="link_header" title="авторизация" onClick={e => { e.preventDefault(); navigate("/auth"); }}>	<span>Вход</span></Nav.Link>
 									</Nav>}
 								{userId && <>
 									<Nav className="justify-content-end flex-grow-1 pe-3">
